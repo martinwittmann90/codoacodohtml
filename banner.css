@@ -1,0 +1,88 @@
+/* RESET ESTILOS */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    }
+.banner {
+	background: cadetblue;
+	height: 200px;
+
+}
+.rolling-text-wrapper {
+	white-space: nowrap;
+	padding: 75px 0px 75px 0px;
+	font-size: 50px;
+	font-weight: 500;
+	color: white;
+	overflow: hidden;
+	position: relative;
+}
+.content-rolling-text {
+	animation: rolltext 15s linear infinite both;
+	color: white;
+	margin: 0;
+	white-space: nowrap;
+	display: inline-flex;
+	overflow: visible;
+}
+#rolltext {
+	color: #fff;
+	font-size: 50px;
+	font-family: 'Source Sans 3', sans-serif;
+}
+
+@keyframes bounce {
+	from {
+		transform: initial;
+	}
+	to {
+		transform: translateY(5px);
+	}
+	}
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+		to {
+		transform: rotate(359deg);
+	}
+	}
+@keyframes wave {
+	0% {
+		transform: translate(3px,3px);
+	}
+	20%{
+		transform: translate(-2px,2px);
+	}
+	40%{
+		transform: translate(-3px,1px);
+	}
+	60%{
+		transform: translate(-2px,-2px);
+	}
+	80%{
+		transform: translate(1px,2px);
+	}
+	100% {
+		transform: translate(3px,3px);
+	}
+	}
+@keyframes rolltext {
+	from{
+		transform: translate3d(0,0,0);
+	}
+	to{
+		transform: translate3d(-50%,0,0);
+	}
+	}
+@keyframes hideToLeft {
+	from{
+		transform: translateX(0%);
+	}
+	to{
+		transform: translateX(-100%);
+	}
+}

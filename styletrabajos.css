@@ -1,0 +1,191 @@
+
+.cuerpoimagenes {
+	margin-top: 16vh;
+	padding: 3vh 3vw;
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+	grid-template-rows: repeat(15, auto);
+	grid-gap: 10px;
+  }
+#one {
+	height: 95%;
+	padding: 10px;
+	grid-column: 1/8;
+	grid-row: 1/5;
+	overflow:hidden;
+  }
+#two {
+	height: 90%;
+	padding: 10px;
+	grid-column:8/12;
+	grid-row: 1/5;
+	overflow:hidden;
+  }
+#three {
+	padding: 10px;
+	grid-column: 12/17;
+	grid-row: 1/7;
+	overflow:hidden;
+  }
+#four {
+	padding: 10px;
+	grid-column: 1/8;
+	grid-row: 5/9;
+	overflow:hidden;
+  }
+#five {
+	width: 70%;
+	height: 55%;
+	padding: 10px;
+	grid-column: 9/12;
+	grid-row: 5/11;
+	overflow:hidden;
+  }
+#six {
+	height: 85%;
+	padding: 10px;
+	grid-column: 3/11;
+	grid-row: 9/14;
+	overflow:hidden;
+  }
+#seven {
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	grid-column: 13/16;
+	grid-row: 7/12;
+	overflow:hidden
+  }
+#kiwi {
+	width: 100%;
+	height: 100%;
+	object-fit:scale-down;
+	justify-content: center;
+	border-radius: 12px;
+}
+#maquillaje {
+	width: 100%;
+	height: 100%;
+	object-fit:scale-down;
+	justify-content: center;
+	border-radius: 12px;
+}
+#bratcelu {
+	width: 100%;
+	height: 100%;
+	object-fit:scale-down;
+	border: rad;
+	justify-content: center;
+	border-radius: 12px;
+}
+#pinbrat {
+	width: 100%;
+	height: 100%;
+	object-fit:scale-down;
+	justify-content: center;
+	border-radius: 12px;
+}
+#brat1 {
+	width: 100%;
+	height: 100%;
+	object-fit:scale-down;
+	justify-content: center;
+	border-radius: 12px;
+}
+#brat2 {
+	width: 100%;
+	height: 100%;
+	object-fit:scale-down;
+	justify-content: center;
+	border-radius: 12px;
+}
+#brat3 {
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	border-radius: 12px;
+}
+.muestrashome {
+	margin-top: 5px;
+	border-top: 1px solid black;
+	border-right: 0px; 
+	border-bottom: 0px;
+	border-left: 0px; 
+    color: black;
+    font-family: 'Source Sans 3', sans-serif;
+    padding: 3px;
+    text-align: center;
+	font-size: 0.7rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.wrapper {
+		display:block;
+		grid-gap: 10px;
+		padding: 10px;
+	}
+	.five {
+		display: flex;
+		justify-content: center;
+	}
+	.seven {
+		display: flex;
+		justify-content: center;
+	}
+	#kiwi {
+		width: 100%;
+		height: 100%;
+		object-fit:scale-down;
+		justify-content: center;
+		border-radius: 12px;
+	}
+	#maquillaje {
+		width: 100%;
+		height: 100%;
+		object-fit:scale-down;
+		justify-content: center;
+		border-radius: 12px
+	}
+	#bratcelu {
+		width: 100%;
+		height: 100%;
+		object-fit:scale-down;
+		border: rad;
+		justify-content: center;
+		border-radius: 12px;
+	}
+	#pinbrat {
+		width: 100%;
+		height: 100%;
+		object-fit:scale-down;
+		justify-content: center;
+		border-radius: 12px;
+	}
+	#brat1 {
+		border-radius: 12px;
+	}
+	#brat2 {
+		width: 100%;
+		height: 100%;
+		object-fit:scale-down;
+		justify-content: center;
+		border-radius: 12px;
+	}
+	#brat3 {
+		border-radius: 12px;
+	}
+	.muestrashome {
+		margin-top: 5px;
+		border-top: 1px solid black;
+		border-right: 0px; 
+		border-bottom: 0px;
+		border-left: 0px; 
+		color: black;
+		font-family: 'Source Sans 3', sans-serif;
+		padding: 3px;
+		text-align: center;
+		font-size: 0.7rem;
+	}
+}
